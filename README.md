@@ -21,7 +21,6 @@ project_root/
 ├─ organized_data/                # organized dataset used for modelling
 ├─ organized_data_split/          # optional split sessions for running
 ├─ model_output/                  # binary fall detection outputs
-├─ model_output_multiclass/       # multiclass recognition outputs
 ├─ organize_data.py
 ├─ split_running.py
 ├─ features_model.py
