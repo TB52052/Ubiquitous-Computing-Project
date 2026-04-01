@@ -162,44 +162,7 @@ The code uses session-aware validation where possible, so windows from the same 
 
 ---
 
-## 5. Output files
-
-### Output from `organize_data.py`
-Main result:
-- a clean `organized_data/` directory ready for modelling
-
-Optional extra output:
-- manifest CSV files if enabled
-
-### Output from `split_running.py`
-Main result:
-- several new running session folders in `organized_data_split/`
-
-Also produced:
-- `running_split_manifest.csv`
-
-### Output from `features_model.py`
-Main result:
-- figures saved into `model_output/`
-
-Typical files:
-- `session_counts.png`
-- `binary_model_comparison.png`
-- `*_confusion_matrix.png`
-- `fusion_confusion_matrix.png`
-
-### Output from `multiclass_analysis.py`
-Main result:
-- figures saved into `model_output_multiclass/`
-
-Typical files:
-- `multiclass_session_counts.png`
-- `multiclass_model_comparison.png`
-- `*_multiclass_confusion_matrix.png`
-
----
-
-## 6. Minimal workflow summary
+## 5. Minimal workflow summary
 
 For someone using this project for the first time, the shortest correct workflow is:
 
