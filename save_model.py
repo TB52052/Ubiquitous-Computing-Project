@@ -210,7 +210,7 @@ def five_fold_cross_validation(features, labels):
     joblib.dump(final_clf, "fall_model.pkl")
     print("Sklearn model saved as fall_model.pkl")
 
-    # --- Convert to Java code for Android (no extra libraries needed) ---
+    # Convert to Java code for Android 
     import m2cgen as m2c
     java_code = m2c.export_to_java(final_clf, class_name="FallDetectionModel")
     with open("FallDetectionModel.java", "w") as f:
